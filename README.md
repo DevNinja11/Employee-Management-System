@@ -17,14 +17,14 @@ Tech Stack
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ## Key Features
-*JWT-based Authentication & Authorization: Secure user management with login, registration, and role-based access.
-*Full CRUD Functionality: Manage employee data with the ability to create, read, update, and delete records.
-*Password Management: Users can reset and change passwords securely.
-*Responsive Frontend UI: Built using React.js and styled with Chakra UI for a clean, modern interface.
-*Backend Integration: Backend powered by Java Spring, utilizing Spring Security, Spring Data JPA, and Spring JDBC.
-*Postgres Database Support: Storing user and employee data securely with Postgres as the database solution.
-*Docker Support: Easily deployable with Docker for streamlined setup and deployment.
 
+- **JWT-based Authentication & Authorization:** Secure user management with login, registration, and role-based access.
+- **Full CRUD Functionality:** Manage employee data with the ability to create, read, update, and delete records.
+- **Password Management:** Users can securely reset and change passwords.
+- **Responsive Frontend UI:** Built using React.js and styled with Chakra UI for a clean, modern interface.
+- **Backend Integration:** Powered by Java Spring, utilizing Spring Security, Spring Data JPA, and Spring JDBC.
+- **Postgres Database Support:** Securely store user and employee data using Postgres as the database solution.
+- **Docker Support:** Easily deployable with Docker for streamlined setup and deployment.
 
 # Fullstack Employee Management
 
