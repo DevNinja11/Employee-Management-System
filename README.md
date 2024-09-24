@@ -17,13 +17,13 @@ Tech Stack
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ## Key Features
-JWT-based Authentication & Authorization: Secure user management with login, registration, and role-based access.
-Full CRUD Functionality: Manage employee data with the ability to create, read, update, and delete records.
-Password Management: Users can reset and change passwords securely.
-Responsive Frontend UI: Built using React.js and styled with Chakra UI for a clean, modern interface.
-Backend Integration: Backend powered by Java Spring, utilizing Spring Security, Spring Data JPA, and Spring JDBC.
-Postgres Database Support: Storing user and employee data securely with Postgres as the database solution.
-Docker Support: Easily deployable with Docker for streamlined setup and deployment.
+*JWT-based Authentication & Authorization: Secure user management with login, registration, and role-based access.
+*Full CRUD Functionality: Manage employee data with the ability to create, read, update, and delete records.
+*Password Management: Users can reset and change passwords securely.
+*Responsive Frontend UI: Built using React.js and styled with Chakra UI for a clean, modern interface.
+*Backend Integration: Backend powered by Java Spring, utilizing Spring Security, Spring Data JPA, and Spring JDBC.
+*Postgres Database Support: Storing user and employee data securely with Postgres as the database solution.
+*Docker Support: Easily deployable with Docker for streamlined setup and deployment.
 
 
 # Fullstack Employee Management
@@ -39,7 +39,7 @@ This project consists of both backend (Spring Framework) and frontend (React) co
    git clone git@github.com:msbeigiai/fullstack-employee-management.git
 Navigate to the project directory:
 
-bash
+ ```bash
 Copy code
 cd fullstack-employee-management
 Database Setup: Ensure your Postgres database is up and running before starting the application. You can install Postgres either using Docker or by downloading it from the official website, depending on your operating system (Mac, Linux, or Windows).
@@ -50,7 +50,7 @@ Copy code
 CREATE DATABASE employee_db;
 Run the backend application: Navigate to the backend folder and run the following commands:
 
-bash
+ ```bash
 Copy code
 cd fullstack-employee-backend
 mvn clean run
@@ -65,7 +65,7 @@ Copy code
 cd ../fullstack-employee-frontend
 Run the frontend application: Use the following command to start the frontend development server:
 
-bash
+ ```bash
 Copy code
 npm run dev
 
