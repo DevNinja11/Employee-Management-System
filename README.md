@@ -34,7 +34,7 @@ Getting Started
 Backend (Spring Framework)
 To get the backend running:
 
-Clone the repository:
+## Clone the repository:
 
 bash
 Copy code
@@ -79,16 +79,16 @@ Employee Dashboard
 
 Add Employee Form
 
-Contributions
+## Contributions
 My Contributions
 As a contributor to this project, my primary contributions included:
 
-Backend Development:
+## Backend Development:
 
 Integrated Spring Security for robust JWT-based authentication and role-based authorization.
 Implemented CRUD operations for managing employee data using Spring Data JPA and Postgres.
 Set up RESTful APIs to interact with the frontend, ensuring smooth communication between the backend and frontend components.
-Frontend Development:
+## Frontend Development:
 
 Built reusable and responsive UI components using React.js and Chakra UI.
 Managed routing with ReactRouter to navigate between different views (login, dashboard, add employee).
@@ -103,5 +103,5 @@ Impact of Contributions
 The integration of JWT authentication significantly enhanced the security of the application, ensuring that only authorized users can access specific data and features.
 By implementing CRUD operations effectively, I enabled users to manage employee data efficiently and securely, improving overall usability.
 The use of Docker improved the development experience by making the application easier to deploy and maintain across different environments.
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
