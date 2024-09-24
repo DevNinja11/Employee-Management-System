@@ -24,58 +24,50 @@ Responsive Frontend UI: Built using React.js and styled with Chakra UI for a cle
 Backend Integration: Backend powered by Java Spring, utilizing Spring Security, Spring Data JPA, and Spring JDBC.
 Postgres Database Support: Storing user and employee data securely with Postgres as the database solution.
 Docker Support: Easily deployable with Docker for streamlined setup and deployment.
-Prerequisites
-Before you begin, ensure you have the following installed on your machine:
 
-JDK 17 (Java 8 and 11 also supported)
-Node.js (v18 or above)
-Docker with Postgres v15.3 or above running in a container
-Getting Started
-Backend (Spring Framework)
-To get the backend running:
 
-## Clone the repository:
-bash
-Copy code
-git clone git@github.com:msbeigiai/fullstack-employee-management.git
+# Fullstack Employee Management
+
+This project consists of both backend (Spring Framework) and frontend (React) components. Follow the steps below to set up and run the application.
+
+## Backend (Spring Framework)
+
+### Steps to Set Up and Run the Backend:
+
+1. **Clone the repository:**
+   ```bash
+   git clone git@github.com:msbeigiai/fullstack-employee-management.git
 Navigate to the project directory:
+
 bash
 Copy code
-cd full-stack-employee-management
-Ensure your Postgres database is running:
+cd fullstack-employee-management
+Database Setup: Ensure your Postgres database is up and running before starting the application. You can install Postgres either using Docker or by downloading it from the official website, depending on your operating system (Mac, Linux, or Windows).
 
-You can install Postgres using Docker or directly install it on your local machine.
-Run the following command to create the database:
-bash
+After setting up Postgres, create the necessary database by running the following SQL query:
+sql
 Copy code
 CREATE DATABASE employee_db;
-Navigate to the backend folder and start the application:
+Run the backend application: Navigate to the backend folder and run the following commands:
 
 bash
 Copy code
-cd full-stack-employee-backend
+cd fullstack-employee-backend
 mvn clean run
-Frontend (React)
-To get the frontend running:
+This will start the Spring backend application.
 
-Navigate to the frontend folder:
+Frontend (React)
+Steps to Set Up and Run the Frontend:
+Navigate to the frontend directory:
 
 bash
 Copy code
 cd ../fullstack-employee-frontend
-Start the development server:
+Run the frontend application: Use the following command to start the frontend development server:
 
 bash
 Copy code
 npm run dev
-Snapshots
-Here are some screenshots of the application in action:
-
-Login Page
-
-Employee Dashboard
-
-Add Employee Form
 
 ## Contributions
 My Contributions
