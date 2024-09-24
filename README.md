@@ -1,4 +1,4 @@
-Full-Stack Employee Management System
+## Full-Stack Employee Management System
 ## Overview
 This repository hosts a comprehensive full-stack web application crafted with the Java Spring Framework for the backend and React.js for the frontend. The system features JWT-based authentication and authorization and implements complete CRUD operations to manage employee data. This project is ideal for beginners and experienced developers looking to explore and contribute to a fully functional, real-world web application.
 
@@ -35,12 +35,10 @@ Backend (Spring Framework)
 To get the backend running:
 
 ## Clone the repository:
-
 bash
 Copy code
 git clone git@github.com:msbeigiai/fullstack-employee-management.git
 Navigate to the project directory:
-
 bash
 Copy code
 cd full-stack-employee-management
@@ -99,7 +97,7 @@ Designed the schema for employee management in Postgres and ensured seamless int
 Dockerization:
 
 Configured Docker for both the backend and database, simplifying the setup process for deployment and development.
-Impact of Contributions
+## Impact of Contributions
 The integration of JWT authentication significantly enhanced the security of the application, ensuring that only authorized users can access specific data and features.
 By implementing CRUD operations effectively, I enabled users to manage employee data efficiently and securely, improving overall usability.
 The use of Docker improved the development experience by making the application easier to deploy and maintain across different environments.
