@@ -27,27 +27,13 @@ Feel free to **clone**, **experiment**, and **contribute** to this open-source p
 
 - **User Authentication & Authorization**: Secure user authentication and role-based authorization using JWT.
 - **CRUD Operations**: Full suite of Create, Read, Update, and Delete operations for employee management.
-- **Password Management**: Users can register, reset their passwords, and change their existing passwords with ease.
+- **Password Management**: Users can easily register, reset their passwords, and change their existing passwords.
 - **Backend Framework**: Spring Boot-based backend powered by Spring Web, Spring Data JPA, Spring Security, and Spring JDBC.
-- **Frontend Framework**: React.js for building a modern user interface, using Chakra UI for styling and ReactRouter for seamless navigation.
+- **Frontend Framework**: React.js is used to build a modern user interface, using Chakra UI for styling and ReactRouter for seamless navigation.
 - **PostgreSQL Database**: Integration with PostgreSQL for data persistence, with Docker support for easy setup.
 - **API Layer**: RESTful API for handling user requests and responses between frontend and backend.
 - **Docker Integration**: Docker support for PostgreSQL setup, ensuring easy environment management.
 - **Responsive Design**: Frontend designed for optimal user experience across all device sizes.
-
----
-
-## Snapshots
-
-### Login Page
-![Login Page](./screenshots/login.png)
-
-### Dashboard
-![Dashboard](./screenshots/dashboard.png)
-
-### Employee Management
-![Employee Management](./screenshots/employees.png)
-
 ---
 
 ## Contributions
