@@ -39,7 +39,7 @@ This project consists of both backend (Spring Framework) and frontend (React) co
    git clone git@github.com:msbeigiai/fullstack-employee-management.git
 Navigate to the project directory:
 
- ```bash
+ bash
 Copy code
 cd fullstack-employee-management
 Database Setup: Ensure your Postgres database is up and running before starting the application. You can install Postgres either using Docker or by downloading it from the official website, depending on your operating system (Mac, Linux, or Windows).
@@ -50,7 +50,7 @@ Copy code
 CREATE DATABASE employee_db;
 Run the backend application: Navigate to the backend folder and run the following commands:
 
- ```bash
+ bash
 Copy code
 cd fullstack-employee-backend
 mvn clean run
@@ -65,7 +65,7 @@ Copy code
 cd ../fullstack-employee-frontend
 Run the frontend application: Use the following command to start the frontend development server:
 
- ```bash
+ bash
 Copy code
 npm run dev
 
